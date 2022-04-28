@@ -1,0 +1,40 @@
+{
+  "name": "pocsound",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "expo": "expo",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "~1.15.0",
+    "@tensorflow/tfjs": "^3.16.0",
+    "@tensorflow/tfjs-react-native": "^0.8.0",
+    "expo": "^44.0.0",
+    "expo-camera": "~12.1.2",
+    "expo-gl": "~11.1.1",
+    "expo-gl-cpp": "~11.1.0",
+    "papaparse": "^5.3.2",
+    "react": "17.0.1",
+    "react-native": "0.64.3",
+    "react-native-audio-recorder-player": "^3.4.0",
+    "react-native-fs": "^2.19.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "7.14.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.64.0",
+    "react-test-renderer": "17.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
